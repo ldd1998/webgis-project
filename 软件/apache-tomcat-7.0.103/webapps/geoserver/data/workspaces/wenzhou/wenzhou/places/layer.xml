@@ -1,0 +1,16 @@
+<layer>
+  <name>places</name>
+  <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a1ecd9a:17d66cc2f5f:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-11-28 14:08:23.270 UTC</dateCreated>
+</layer>

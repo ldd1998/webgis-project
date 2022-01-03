@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-49cc9154:17e199bc207:-7ffe</id>
+  <name>roadhuanchong</name>
+  <nativeName>roadhuanchong</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1dbbd38f:17e0b631f00:-7ffe</id>
+  </namespace>
+  <title>roadhuanchong</title>
+  <keywords>
+    <string>features</string>
+    <string>roadhuanchong</string>
+  </keywords>
+  <srs>EPSG:404000</srs>
+  <nativeBoundingBox>
+    <minx>52.12152099609375</minx>
+    <maxx>722.6211106445312</maxx>
+    <miny>-738.3214111328125</miny>
+    <maxy>-69.1676275390625</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>52.12152099609375</minx>
+    <maxx>722.6211106445312</maxx>
+    <miny>-738.3214111328125</miny>
+    <maxy>-69.1676275390625</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-49cc9154:17e199bc207:-7fff</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

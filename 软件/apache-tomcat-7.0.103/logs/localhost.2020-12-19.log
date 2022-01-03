@@ -1,0 +1,10 @@
+十二月 19, 2020 12:17:56 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+十二月 19, 2020 12:17:58 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+十二月 19, 2020 12:24:41 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcher'
+十二月 19, 2020 12:26:12 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcher'
+十二月 19, 2020 12:26:12 下午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext

@@ -1,0 +1,1505 @@
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         E:\Program Files\java\jdk-14.0.1
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              14.0.1+7
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\MyFile\learn\java\apache-tomcat-7.0.103\conf\logging.properties
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:02:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\MyFile\learn\java\apache-tomcat-7.0.103\temp
+12月 07, 2020 12:02:02 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+12月 07, 2020 12:02:02 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12月 07, 2020 12:02:03 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+12月 07, 2020 12:02:03 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+12月 07, 2020 12:02:03 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 5183 ms
+12月 07, 2020 12:02:03 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+12月 07, 2020 12:02:03 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+12月 07, 2020 12:02:04 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive [E:\MyFile\learn\java\apache-tomcat-7.0.103\webapps\geoserver.war]
+12月 07, 2020 12:02:31 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 07, 2020 12:02:35 下午 org.apache.catalina.core.StandardContext startInternal
+严重: One or more listeners failed to start. Full details will be found in the appropriate container log file
+12月 07, 2020 12:02:35 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [137] milliseconds.
+12月 07, 2020 12:02:35 下午 org.apache.catalina.core.StandardContext startInternal
+严重: Context [/geoserver] startup failed due to previous errors
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Beginning GeoServer cleanup sequence
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+警告: Error occurred trying to dispose authority factories
+java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:722)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:155)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:146)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:82)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:115)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactories(ReferencingFactoryFinder.java:180)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCoordinateOperationAuthorityFactories(ReferencingFactoryFinder.java:489)
+	at org.geoserver.GeoserverInitStartupListener.contextDestroyed(GeoserverInitStartupListener.java:192)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5183)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5874)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:187)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+警告: Error occurred trying to dispose authority factories
+java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:722)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:155)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:146)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:82)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:115)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactories(ReferencingFactoryFinder.java:180)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSAuthorityFactories(ReferencingFactoryFinder.java:455)
+	at org.geoserver.GeoserverInitStartupListener.contextDestroyed(GeoserverInitStartupListener.java:197)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5183)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5874)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:187)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+警告: Error occurred trying to dispose authority factories
+java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:722)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:155)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:146)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:82)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:115)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactories(ReferencingFactoryFinder.java:180)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCSAuthorityFactories(ReferencingFactoryFinder.java:403)
+	at org.geoserver.GeoserverInitStartupListener.contextDestroyed(GeoserverInitStartupListener.java:202)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5183)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5874)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:187)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Shut down GT referencing threads 
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Shut down GT  SPI 
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Shut down coverage thread pool 
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi@1cf6bc76
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.URLImageOutputStreamSpi@66a42164
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi@9b241b4
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageReaderSpi@4d00c606
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.FileImageInputStreamExtImplSpi@677f83b5
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi@6dd99253
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi@1c874c09
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageWriterSpi@54c0c411
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi@518970c
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.FileImageOutputStreamExtImplSpi@9362722
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi@6efdff2a
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi@2c38c02f
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi@68380da0
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi@37e5737c
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi@78f02c6c
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.StringImageInputStreamSpi@6f067d5b
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi@1d02e41c
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageWriterSpi@57e05e88
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi@2ab4c41f
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi@2fe97d45
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.StringImageOutputStreamSpi@e865cf5
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi@6aae475b
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.URLImageInputStreamSpi@5054cc2c
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi@2a428579
+12月 07, 2020 12:02:35 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi@4a33568c
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibLogRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.LogCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PNMRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IIPCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibGradientRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.GradientRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PatternRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PNGRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class javax.media.jai.NullCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FileStoreRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibBandCombineRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BandCombineCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibTranslateRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.TranslateCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibConvolveRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ConvolveRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDCTRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DCTCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.GIFRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IIPResolutionRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FormatCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MaxCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BorderRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibRescaleRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.RescaleCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibBinarizeRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BinarizeCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideComplexCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDilateRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DilateRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibHistogramRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.HistogramRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddCollectionCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.URLRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PolarToComplexCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubtractConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MaxFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.JPEGRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ErrorDiffusionRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMeanRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MeanRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.EncodeRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PhaseCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ConjugateCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OrderedDitherRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OrCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BandMergeCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.CropCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibExtremaRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ExtremaRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubtractCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ConstantCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDFTRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IDFTCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibInvertRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.InvertCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PiecewiseCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideByConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideByConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OrConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMosaicRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MosaicRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibRotateRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.RotateCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.XorConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibShearRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ShearRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeSquaredCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AndCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.StreamRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ColorConvertCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.XorCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAbsoluteRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AbsoluteCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractFromConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubtractFromConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibCompositeRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.CompositeCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BMPRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.TIFFRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibBoxFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BoxFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibBandSelectRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BandSelectCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDFTRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DFTCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibErodeRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ErodeRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibUnsharpMaskRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.UnsharpMaskRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MinFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibExpRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ExpCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ColorQuantizerRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OverlayCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AndConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FileLoadRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleAverageRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleAverageCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibThresholdRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ThresholdCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MatchCDFCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyComplexCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibScaleRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ScaleCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibClampRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ClampCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAffineRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AffineCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AWTImageRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibLookupRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.LookupCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleBinaryToGrayRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleBinaryToGrayCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibNotRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.NotCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDCTRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IDCTCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideIntoConstRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideIntoConstCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ImageFunctionRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMedianFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MedianFilterRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibFilteredSubsampleRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FilteredSubsampleRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MinCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibWarpRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.WarpRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PeriodicShiftCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FPXRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibTransposeRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.TransposeCRIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddConstToCollectionCIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCIF
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileDecoderFactory
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileDecoderFactory
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileDecoderFactory
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileEncoderFactory
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileEncoderFactory
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileEncoderFactory
+12月 07, 2020 12:02:36 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Cleaned up javabean caches
+12月 07, 2020 12:02:36 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive [E:\MyFile\learn\java\apache-tomcat-7.0.103\webapps\geoserver.war] has finished in [32,766] ms
+12月 07, 2020 12:02:36 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+12月 07, 2020 12:02:36 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 33378 ms
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         E:\Program Files\java\jdk-14.0.1
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              14.0.1+7
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\MyFile\learn\java\apache-tomcat-7.0.103\conf\logging.properties
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\MyFile\learn\java\apache-tomcat-7.0.103\temp
+12月 07, 2020 12:06:51 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+12月 07, 2020 12:06:51 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12月 07, 2020 12:06:51 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+12月 07, 2020 12:06:51 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 561 ms
+12月 07, 2020 12:06:51 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+12月 07, 2020 12:06:51 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+12月 07, 2020 12:06:51 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+12月 07, 2020 12:06:51 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 90 ms
+12月 07, 2020 12:08:20 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         E:\Program Files\java\jdk-14.0.1
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              14.0.1+7
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\MyFile\learn\java\apache-tomcat-7.0.103\conf\logging.properties
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\MyFile\learn\java\apache-tomcat-7.0.103\temp
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+12月 07, 2020 12:08:24 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+12月 07, 2020 12:08:24 下午 org.apache.coyote.AbstractProtocol init
+严重: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [?????????×???(Э?é/???????/???)????í??]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.StandardService initInternal
+严重: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [?????????×???(Э?é/???????/???)????í??]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 575 ms
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+12月 07, 2020 12:08:24 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 67 ms
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.StandardServer await
+严重: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:479)
+	at java.base/sun.nio.ch.Net.bind(Net.java:468)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+12月 07, 2020 12:08:24 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-apr-8080"]
+12月 07, 2020 12:08:24 下午 org.apache.catalina.core.StandardService stopInternal
+信息: 正在停止服务[Catalina]
+12月 07, 2020 12:08:24 下午 org.apache.coyote.AbstractProtocol stop
+信息: 正在停止ProtocolHandler ["http-apr-8080"]
+12月 07, 2020 12:08:24 下午 org.apache.coyote.AbstractProtocol destroy
+信息: 正在摧毁协议处理器 ["http-apr-8080"]
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         E:\Program Files\java\jdk-14.0.1
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              14.0.1+7
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 07, 2020 12:10:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\MyFile\learn\java\apache-tomcat-7.0.103\conf\logging.properties
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:10:31 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\MyFile\learn\java\apache-tomcat-7.0.103\temp
+12月 07, 2020 12:10:31 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+12月 07, 2020 12:10:31 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12月 07, 2020 12:10:31 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+12月 07, 2020 12:10:32 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+12月 07, 2020 12:10:32 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 9970 ms
+12月 07, 2020 12:10:32 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+12月 07, 2020 12:10:32 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+12月 07, 2020 12:10:32 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+12月 07, 2020 12:10:32 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 589 ms
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         E:\Program Files\java\jdk-14.0.1
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              14.0.1+7
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\MyFile\learn\java\apache-tomcat-7.0.103\conf\logging.properties
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\MyFile\learn\java\apache-tomcat-7.0.103
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\MyFile\learn\java\apache-tomcat-7.0.103\temp
+12月 07, 2020 12:13:34 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+12月 07, 2020 12:13:34 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12月 07, 2020 12:13:34 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+12月 07, 2020 12:13:34 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 539 ms
+12月 07, 2020 12:13:34 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+12月 07, 2020 12:13:34 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+12月 07, 2020 12:13:34 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive [E:\MyFile\learn\java\apache-tomcat-7.0.103\webapps\geoserver.war]
+12月 07, 2020 12:13:53 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12月 07, 2020 12:13:57 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+12月 07, 2020 12:13:57 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+12月 07, 2020 12:13:57 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+12月 07, 2020 12:13:57 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+12月 07, 2020 12:14:01 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+12月 07, 2020 12:14:01 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+12月 07, 2020 12:14:01 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+12月 07, 2020 12:14:01 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+12月 07, 2020 12:14:27 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive [E:\MyFile\learn\java\apache-tomcat-7.0.103\webapps\geoserver.war] has finished in [52,793] ms
+12月 07, 2020 12:14:27 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+12月 07, 2020 12:14:27 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 52938 ms
+12月 07, 2020 12:47:27 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12月 07, 2020 12:47:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-apr-8080"]
+12月 07, 2020 12:47:27 下午 org.apache.catalina.core.StandardService stopInternal
+信息: 正在停止服务[Catalina]
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Beginning GeoServer cleanup sequence
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistered JDBC driver org.postgresql.Driver@7f7b548f
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistered JDBC driver org.h2.Driver@50b91bbd
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistered JDBC driver org.sqlite.JDBC@34f590d0
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistered JDBC driver org.hsqldb.jdbc.JDBCDriver@69bb77d7
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory GeoserverWKTOperationFactory["European Petroleum Survey Group"]
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = PropertyCoordinateOperationAuthorityFactory["European Petroleum Survey Group"]
+    CRS_FACTORY                          = ReferencingObjectFactory                                                      
+    CS_FACTORY                           = (same as CRS_FACTORY)                                                         
+    DATUM_FACTORY                        = DatumAliases                                                                  
+    MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                                   
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory GeoserverOverridingWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory CartesianAuthorityFactory["European Petroleum Survey Group"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory GeoserverCustomWKTFactory["European Petroleum Survey Group"]
+  CRS_AUTHORITY_EXTRA_DIRECTORY    = null                                                       
+  DATUM_AUTHORITY_FACTORY          = PropertyAuthorityFactory["European Petroleum Survey Group"]
+    FORCE_STANDARD_AXIS_DIRECTIONS = false                                                      
+    FORCE_STANDARD_AXIS_UNITS      = false                                                      
+    CRS_FACTORY                    = ReferencingObjectFactory                                   
+    CS_FACTORY                     = (same as CRS_FACTORY)                                      
+    DATUM_FACTORY                  = DatumAliases                                               
+    MATH_TRANSFORM_FACTORY         = DefaultMathTransformFactory                                
+  CS_AUTHORITY_FACTORY             = (same as DATUM_AUTHORITY_FACTORY)                          
+  CRS_AUTHORITY_FACTORY            = (same as DATUM_AUTHORITY_FACTORY)                          
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory AutoCRSFactory["Automatic Projections"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory WebCRSFactory["Web Map Service CRS"]
+  CRS_FACTORY            = ReferencingObjectFactory   
+  CS_FACTORY             = (same as CRS_FACTORY)      
+  DATUM_FACTORY          = DatumAliases               
+  MATH_TRANSFORM_FACTORY = DefaultMathTransformFactory
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory LongitudeFirstFactory["European Petroleum Survey Group"]
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER           = true                                                          
+  FORCE_STANDARD_AXIS_DIRECTIONS             = false                                                         
+  FORCE_STANDARD_AXIS_UNITS                  = false                                                         
+  CS_AUTHORITY_FACTORY                       = OrderedAxisAuthorityFactory["European Petroleum Survey Group"]
+    DATUM_AUTHORITY_FACTORY                  = ThreadedHsqlEpsgFactory["European Petroleum Survey Group"]    
+      EPSG_DATA_SOURCE                       = java:comp/env/jdbc/EPSG                                       
+      DATUM_AUTHORITY_FACTORY                = ThreadedHsqlEpsgFactory.["European Petroleum Survey Group"]   
+        FORCE_LONGITUDE_FIRST_AXIS_ORDER     = false                                                         
+        FORCE_STANDARD_AXIS_DIRECTIONS       = false                                                         
+        FORCE_STANDARD_AXIS_UNITS            = false                                                         
+        VERSION                              = 9.6                                                           
+        CRS_FACTORY                          = ReferencingObjectFactory                                      
+        CS_FACTORY                           = (same as CRS_FACTORY)                                         
+        DATUM_FACTORY                        = DatumAliases                                                  
+        MATH_TRANSFORM_FACTORY               = DefaultMathTransformFactory                                   
+      CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)                             
+      CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)                             
+      COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)                             
+    CS_AUTHORITY_FACTORY                     = (same as DATUM_AUTHORITY_FACTORY)                             
+    CRS_AUTHORITY_FACTORY                    = (same as DATUM_AUTHORITY_FACTORY)                             
+    COORDINATE_OPERATION_AUTHORITY_FACTORY   = (same as DATUM_AUTHORITY_FACTORY)                             
+    FORCE_STANDARD_AXIS_UNITS                = false                                                         
+    FORCE_STANDARD_AXIS_DIRECTIONS           = false                                                         
+    FORCE_LONGITUDE_FIRST_AXIS_ORDER         = true                                                          
+  CRS_AUTHORITY_FACTORY                      = (same as CS_AUTHORITY_FACTORY)                                
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener disposeAuthorityFactories
+信息: Disposing referencing factory HTTP_AuthorityFactory["URL in OGC namespace"]
+  DATUM_AUTHORITY_FACTORY                = AllAuthoritiesFactory["All"]     
+  CS_AUTHORITY_FACTORY                   = (same as DATUM_AUTHORITY_FACTORY)
+  CRS_AUTHORITY_FACTORY                  = (same as DATUM_AUTHORITY_FACTORY)
+  COORDINATE_OPERATION_AUTHORITY_FACTORY = (same as DATUM_AUTHORITY_FACTORY)
+
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Shut down GT referencing threads 
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Shut down GT  SPI 
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Shut down coverage thread pool 
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageWriterSpi@6abb979b
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi@5ea76883
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi@6760c067
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi@409edb76
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi@25ef5627
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider org.geotools.geopkg.ByteArrayImageInputStreamSpi@4981b6ca
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.StringImageInputStreamSpi@2c7a86f1
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi@a0cf540
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi@475c2630
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.StringImageOutputStreamSpi@7e9a92b5
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi@1f74b11b
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi@70b6fd59
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.FileImageInputStreamExtImplSpi@6aa9ad58
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.input.spi.URLImageInputStreamSpi@6d823ef0
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi@225abd28
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi@6b3f340c
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi@113464e0
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi@12b6e101
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi@377c9ecb
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.URLImageOutputStreamSpi@3269e5d0
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.stream.output.spi.FileImageOutputStreamExtImplSpi@784cf275
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageio.plugins.arcgrid.spi.AsciiGridsImageReaderSpi@1e35d1a
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi@44ac2855
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering Image I/O provider com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi@5b2241de
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibLogRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.LogCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PNMRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IIPCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibGradientRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.GradientRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PatternRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PNGRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.nullop.NullCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FileStoreRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.zonal.ZonalStatsRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.jiffleop.JiffleRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class org.geotools.processing.jai.TransparencyFillRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.bandcombine.BandCombineCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.translate.TranslateCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibConvolveRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ConvolveRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDCTRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DCTCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.GIFRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.format.FormatCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IIPResolutionRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MaxCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.border.BorderRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.rescale.RescaleCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.binarize.BinarizeCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideComplexCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDilateRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DilateRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibHistogramRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.HistogramRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddCollectionCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.URLRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class org.jaitools.media.jai.vectorize.VectorizeRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PolarToComplexCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.colorindexer.ColorIndexerCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class org.jaitools.media.jai.zonalstats.ZonalStatsRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.classbreaks.ClassBreaksRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubtractConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMaxFilterRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MaxFilterRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.JPEGRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.errordiffusion.ErrorDiffusionRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.algebra.constant.OperationConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.piecewise.GenericPiecewiseCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMeanRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MeanRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.EncodeRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PhaseCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ConjugateCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.orderdither.OrderedDitherRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OrCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.shadedrelief.ShadedReliefRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.bandmerge.BandMergeCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.crop.CropCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibExtremaRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ExtremaRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubtractCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ConstantCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDFTRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IDFTCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibInvertRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.InvertCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PiecewiseCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideByConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideByConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibOrConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OrConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.mosaic.MosaicRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.algebra.AlgebraCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibRotateRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.RotateCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.XorConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibShearRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ShearRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeSquaredCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAddConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.rlookup.RangeLookupRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AndCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.StreamRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.colorconvert.ColorConvertCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibXorRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.XorCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.classifier.RasterClassifierCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAbsoluteRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AbsoluteCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubtractFromConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubtractFromConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibCompositeRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.CompositeCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BMPRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.TIFFRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibBoxFilterRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.BoxFilterRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.bandselect.BandSelectCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDFTRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DFTCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.buffer.BufferRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibErodeRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ErodeRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMultiplyConstRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyConstCRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibUnsharpMaskRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.UnsharpMaskRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.vectorbin.VectorBinarizeRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinFilterRIF
+12月 07, 2020 12:47:27 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MinFilterRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibExpRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ExpCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ColorQuantizerRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.OverlayCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibAndConstRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AndConstCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FileLoadRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleAverageRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleAverageCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.scale.Scale2CRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibThresholdRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ThresholdCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MatchCDFCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MultiplyComplexCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.scale.ScaleCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibClampRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.ClampCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class org.jaitools.media.jai.contour.ContourRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.stats.StatisticsRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.affine.AffineCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.lookup.LookupCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AWTImageRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MagnitudeCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibSubsampleBinaryToGrayRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.SubsampleBinaryToGrayCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibNotRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.NotCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibIDCTRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.IDCTCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibDivideIntoConstRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.DivideIntoConstCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.imagefunction.ImageFunctionRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMedianFilterRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MedianFilterRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibFilteredSubsampleRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FilteredSubsampleRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibMinRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.MinCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class it.geosolutions.jaiext.warp.WarpRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.PeriodicShiftCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.FPXRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.mlib.MlibTransposeRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.TransposeCRIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageReadCIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.opimage.AddConstToCollectionCIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.imageioimpl.ImageWriteCIF
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileDecoderFactory
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileDecoderFactory
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileDecoderFactory
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.RawTileEncoderFactory
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.JPEGTileEncoderFactory
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Unregistering JAI factory class com.sun.media.jai.tilecodec.GZIPTileEncoderFactory
+12月 07, 2020 12:47:28 下午 org.geoserver.GeoserverInitStartupListener contextDestroyed
+信息: Cleaned up javabean caches
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/geoserver] appears to have started a thread named [FileSystemWatcher-1] but has failed to stop it. This is very likely to create a memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/geoserver] appears to have started a thread named [Thread-3] but has failed to stop it. This is very likely to create a memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/geoserver] appears to have started a thread named [EMF Reference Cleaner] but has failed to stop it. This is very likely to create a memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+严重: The web application [/geoserver] appears to have started a thread named [GuavaAuthCache-0-1] but has failed to stop it. This is very likely to create a memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@1f8acfe6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@bbbbf6b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@430f986f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@5bbe86bb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@128297d5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@44943209]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@7b671614]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@54c3cc9d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@52f9c5ef]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [org.geotools.renderer.lite.RendererUtilities$1] (value [org.geotools.renderer.lite.RendererUtilities$1@33556f8a]) and a value of type [org.geotools.referencing.operation.builder.GridToEnvelopeMapper] (value [org.geotools.referencing.operation.builder.GridToEnvelopeMapper@3718b1c3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+严重: The web application [/geoserver] created a ThreadLocal with key of type [com.sun.jna.Structure$2] (value [com.sun.jna.Structure$2@3094963a]) and a value of type [com.sun.jna.Structure.StructureSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+12月 07, 2020 12:47:28 下午 org.apache.coyote.AbstractProtocol stop
+信息: 正在停止ProtocolHandler ["http-apr-8080"]
+12月 07, 2020 12:47:28 下午 org.apache.coyote.AbstractProtocol destroy
+信息: 正在摧毁协议处理器 ["http-apr-8080"]

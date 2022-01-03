@@ -1,0 +1,17 @@
+<layer>
+  <name>shengji_ply</name>
+  <id>LayerInfoImpl--1dd5078f:1789067d2fe:-7ff1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1dd5078f:1789067d2fe:-7ff2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-04-02 02:32:53.388 UTC</dateCreated>
+  <dateModified>2021-04-07 01:40:23.235 UTC</dateModified>
+</layer>

@@ -1,0 +1,50 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff2</id>
+  <name>wenzhou</name>
+  <mode>SINGLE</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl--4a1ecd9a:17d66cc2f5f:-7fff</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ffb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff3</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff5</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff7</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff9</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>120.33135633300003</minx>
+    <maxx>120.95534447800003</maxx>
+    <miny>27.82573059500004</miny>
+    <maxy>28.157888400000047</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2021-11-28 14:12:38.238 UTC</dateCreated>
+</layerGroup>

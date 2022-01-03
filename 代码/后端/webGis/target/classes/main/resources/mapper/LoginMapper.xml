@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace要求使用接口的全限定名称，保证唯一性-->
+<!--mapper是一个映射文件，里面放需要执行的sql语句，dtd为指定约束文件，约束文件的规范-->
+<mapper namespace="main.mapper.LoginMapper">
+    <select id="login" resultType="int">
+        select count(*) from login where user = #{user} and password = #{password};
+    </select>
+    <insert id="register">
+        insert into login(user,password) values(#{user},#{password})
+    </insert>
+</mapper>

@@ -1,0 +1,154 @@
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         E:\java\jdk\jre
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              1.8.0_191-b12
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103\conf\logging.properties
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103\temp
+一月 02, 2022 3:05:21 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+一月 02, 2022 3:05:21 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+一月 02, 2022 3:05:21 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+一月 02, 2022 3:05:21 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 963 ms
+一月 02, 2022 3:05:21 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+一月 02, 2022 3:05:21 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+一月 02, 2022 3:05:21 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive [C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103\webapps\geoserver.war]
+一月 02, 2022 3:05:28 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 02, 2022 3:05:40 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+一月 02, 2022 3:05:40 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 3:05:40 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+一月 02, 2022 3:05:40 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 3:05:42 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+一月 02, 2022 3:05:42 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 3:05:42 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+一月 02, 2022 3:05:42 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 3:05:53 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive [C:\Users\lsd\Desktop\webgis\webgis-project\软件\apache-tomcat-7.0.103\webapps\geoserver.war] has finished in [31,543] ms
+一月 02, 2022 3:05:53 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+一月 02, 2022 3:05:53 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 31859 ms
+一月 02, 2022 3:16:12 下午 java.util.prefs.WindowsPreferences <init>
+警告: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.103
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Mar 16 2020 08:34:15 UTC
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.103.0
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         C:\Program Files\Java\jdk1.8.0_281\jre
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              1.8.0_281-b09
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103\conf\logging.properties
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103\temp
+一月 02, 2022 8:25:12 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+一月 02, 2022 8:25:12 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+一月 02, 2022 8:25:12 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+一月 02, 2022 8:25:12 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 850 ms
+一月 02, 2022 8:25:12 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+一月 02, 2022 8:25:12 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.103
+一月 02, 2022 8:25:12 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive [C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103\webapps\geoserver.war]
+一月 02, 2022 8:25:26 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+一月 02, 2022 8:25:30 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+一月 02, 2022 8:25:30 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 8:25:30 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+一月 02, 2022 8:25:30 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 8:25:35 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+一月 02, 2022 8:25:35 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 8:25:35 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+一月 02, 2022 8:25:35 下午 org.geoserver.platform.GeoServerExtensions checkContext
+警告: Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+一月 02, 2022 8:25:50 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive [C:\Users\刘冬冬\Desktop\webgis2\软件\apache-tomcat-7.0.103\webapps\geoserver.war] has finished in [37,754] ms
+一月 02, 2022 8:25:50 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+一月 02, 2022 8:25:50 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 37846 ms

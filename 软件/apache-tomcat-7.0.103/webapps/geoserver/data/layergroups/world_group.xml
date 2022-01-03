@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--1dd5078f:1789067d2fe:-7fe4</id>
+  <name>world_group</name>
+  <mode>SINGLE</mode>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--1dd5078f:1789067d2fe:-7ff9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1dd5078f:1789067d2fe:-7ff1</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1dd5078f:1789067d2fe:-7fe7</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1dd5078f:1789067d2fe:-7fed</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--3b5164aa:1789634b56b:-7ffa</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3b5164aa:1789634b56b:-7ffb</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1dd5078f:1789067d2fe:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3b5164aa:1789634b56b:-7ff9</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>73.45100463562233</minx>
+    <maxx>134.97679764650596</maxx>
+    <miny>18.16324718764174</miny>
+    <maxy>53.531943152223576</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <dateCreated>2021-04-02 02:35:29.351 UTC</dateCreated>
+  <dateModified>2021-06-04 00:29:20.37 UTC</dateModified>
+</layerGroup>

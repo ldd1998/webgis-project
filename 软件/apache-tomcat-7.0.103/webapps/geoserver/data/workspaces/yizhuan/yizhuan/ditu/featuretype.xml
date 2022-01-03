@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1dbbd38f:17e0b631f00:-7ffa</id>
+  <name>ditu</name>
+  <nativeName>ditu</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1dbbd38f:17e0b631f00:-7ffe</id>
+  </namespace>
+  <title>ditu</title>
+  <keywords>
+    <string>features</string>
+    <string>ditu</string>
+  </keywords>
+  <srs>EPSG:404000</srs>
+  <nativeBoundingBox>
+    <minx>26.01947021484375</minx>
+    <maxx>755.1960702148438</maxx>
+    <miny>-688.2886962890625</miny>
+    <maxy>-43.89989628906255</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>26.01947021484375</minx>
+    <maxx>755.1960702148438</maxx>
+    <miny>-688.2886962890625</miny>
+    <maxy>-43.89989628906255</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1dbbd38f:17e0b631f00:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,43 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--1dbbd38f:17e0b631f00:-7ff4</id>
+  <name>yizhuan</name>
+  <mode>SINGLE</mode>
+  <workspace>
+    <id>WorkspaceInfoImpl--1dbbd38f:17e0b631f00:-7fff</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--1dbbd38f:17e0b631f00:-7ff9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1dbbd38f:17e0b631f00:-7ffb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1dbbd38f:17e0b631f00:-7ff7</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--1dbbd38f:17e0b631f00:-7fd0</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1dbbd38f:17e0b631f00:-7fe5</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--1dbbd38f:17e0b631f00:-7ff2</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>26.01947021484375</minx>
+    <maxx>755.1960702148438</maxx>
+    <miny>-738.3214111328125</miny>
+    <maxy>-43.89989628906255</maxy>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:404000</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-12-30 12:58:03.166 UTC</dateCreated>
+  <dateModified>2021-12-31 11:21:41.276 UTC</dateModified>
+</layerGroup>

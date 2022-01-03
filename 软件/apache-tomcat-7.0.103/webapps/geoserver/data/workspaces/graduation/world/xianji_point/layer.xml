@@ -1,0 +1,16 @@
+<layer>
+  <name>xianji_point</name>
+  <id>LayerInfoImpl--1dd5078f:1789067d2fe:-7fe5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1dd5078f:1789067d2fe:-7fe6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-04-02 02:34:00.6 UTC</dateCreated>
+</layer>

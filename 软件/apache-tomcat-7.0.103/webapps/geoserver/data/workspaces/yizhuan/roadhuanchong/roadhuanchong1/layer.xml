@@ -1,0 +1,16 @@
+<layer>
+  <name>roadhuanchong1</name>
+  <id>LayerInfoImpl--7c32c9be:17e1ac09de4:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7c32c9be:17e1ac09de4:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-01-02 12:32:51.168 UTC</dateCreated>
+</layer>

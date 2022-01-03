@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl--4a1ecd9a:17d66cc2f5f:-7ffd</id>
+  <name>wenzhou</name>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--4a1ecd9a:17d66cc2f5f:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">GBK</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Asia/Shanghai</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">www.wenzhou.com</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file://C:\Users\刘冬冬\Desktop\webgis\温州市区数据</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2021-11-28 14:00:34.559 UTC</dateCreated>
+</dataStore>

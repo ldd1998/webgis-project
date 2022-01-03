@@ -1,0 +1,22 @@
+<layer>
+  <name>points</name>
+  <id>LayerInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--531da44a:17d6b914a7a:-7fff</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--531da44a:17d6b914a7a:-7fff</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a1ecd9a:17d66cc2f5f:-7ff8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-11-28 14:08:36.205 UTC</dateCreated>
+  <dateModified>2021-11-29 14:02:29.872 UTC</dateModified>
+</layer>

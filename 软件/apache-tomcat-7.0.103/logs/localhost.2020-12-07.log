@@ -1,0 +1,85 @@
+12月 07, 2020 12:02:31 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+12月 07, 2020 12:02:32 下午 org.apache.catalina.core.StandardContext listenerStart
+严重: 异常将上下文初始化事件发送到类的侦听器实例.[org.geoserver.GeoserverInitStartupListener]
+java.lang.IllegalArgumentException: org.geotools.styling.StyleFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:722)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:155)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:91)
+	at org.geotools.factory.CommonFactoryFinder.getServiceRegistry(CommonFactoryFinder.java:76)
+	at org.geotools.factory.CommonFactoryFinder.lookup(CommonFactoryFinder.java:346)
+	at org.geotools.factory.CommonFactoryFinder.getFilterFactory(CommonFactoryFinder.java:300)
+	at org.geotools.factory.CommonFactoryFinder.getFilterFactory2(CommonFactoryFinder.java:390)
+	at org.geoserver.GeoserverInitStartupListener.contextInitialized(GeoserverInitStartupListener.java:127)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5136)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5662)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+12月 07, 2020 12:02:32 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+12月 07, 2020 12:02:35 下午 org.apache.catalina.core.StandardContext listenerStart
+严重: 异常将上下文初始化事件发送到类的侦听器实例.[org.geoserver.platform.GeoServerContextLoaderListener]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'geoServerLoader' defined in URL [jar:file:/E:/MyFile/learn/java/apache-tomcat-7.0.103/webapps/geoserver/WEB-INF/lib/main-2.3.3.jar!/applicationContext.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: org.geoserver.platform.ExtensionFilter is not an ImageIO SPI class
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:740)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:449)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:385)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:284)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:22)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5136)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5662)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1127)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:2020)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.IllegalArgumentException: org.geoserver.platform.ExtensionFilter is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:722)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.lookupProviders(ServiceRegistry.java:207)
+	at org.geoserver.platform.GeoServerExtensions.extensions(GeoServerExtensions.java:167)
+	at org.geoserver.platform.GeoServerExtensions.extensions(GeoServerExtensions.java:134)
+	at org.geoserver.platform.GeoServerExtensions.bean(GeoServerExtensions.java:291)
+	at org.geoserver.config.GeoServerLoaderProxy.lookupGeoServerLoader(GeoServerLoaderProxy.java:75)
+	at org.geoserver.config.GeoServerLoaderProxy.setApplicationContext(GeoServerLoaderProxy.java:43)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.invokeAwareInterfaces(ApplicationContextAwareProcessor.java:117)
+	at org.springframework.context.support.ApplicationContextAwareProcessor.postProcessBeforeInitialization(ApplicationContextAwareProcessor.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:394)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1448)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	... 24 more
+
+12月 07, 2020 12:02:35 下午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext
+12月 07, 2020 12:13:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+12月 07, 2020 12:13:57 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring root WebApplicationContext
+12月 07, 2020 12:14:45 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcher'
+12月 07, 2020 12:47:27 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcher'
+12月 07, 2020 12:47:27 下午 org.apache.catalina.core.ApplicationContext log
+信息: Closing Spring root WebApplicationContext

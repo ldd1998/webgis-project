@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl--1dbbd38f:17e0b631f00:-7ffd</id>
+  <name>yizhuan</name>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--1dbbd38f:17e0b631f00:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">GBK</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Asia/Shanghai</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">www.yizhuan.com</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file://C:\Users\刘冬冬\Desktop\webgis\医专数据</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2021-12-30 12:55:02.906 UTC</dateCreated>
+  <dateModified>2022-01-02 12:27:47.257 UTC</dateModified>
+</dataStore>

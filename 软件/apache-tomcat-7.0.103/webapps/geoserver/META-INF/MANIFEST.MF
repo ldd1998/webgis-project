@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Application-Name: 
+Implementation-Title: GeoServer Web Application
+Implementation-Version: 2.18.1
+Build-Timestamp: 19-Nov-2020 15:33
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Specification-Vendor: Open Source Geospatial Foundation
+Specification-Title: GeoServer Web Application
+Implementation-Vendor-Id: org.geoserver.web
+GeoServerModule: core
+Project-Version: 2.18.1
+Implementation-Vendor: Open Source Geospatial Foundation
+Iteration-Name: 
+Git-Revision: 95cf8a329b0b51b69e1ea8d833bcb8b2ccc9b2be
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_275
+Specification-Version: 2.18.1
+

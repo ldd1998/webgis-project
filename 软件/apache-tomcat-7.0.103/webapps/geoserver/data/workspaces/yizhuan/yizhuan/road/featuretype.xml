@@ -1,0 +1,54 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1dbbd38f:17e0b631f00:-7ff6</id>
+  <name>road</name>
+  <nativeName>road</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1dbbd38f:17e0b631f00:-7ffe</id>
+  </namespace>
+  <title>road</title>
+  <keywords>
+    <string>features</string>
+    <string>road</string>
+  </keywords>
+  <srs>EPSG:404000</srs>
+  <nativeBoundingBox>
+    <minx>52.12152099609375</minx>
+    <maxx>722.6211106445312</maxx>
+    <miny>-738.3214111328125</miny>
+    <maxy>-69.1676275390625</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>52.12152099609375</minx>
+    <maxx>722.6211106445312</maxx>
+    <miny>-738.3214111328125</miny>
+    <maxy>-69.1676275390625</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1dbbd38f:17e0b631f00:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
